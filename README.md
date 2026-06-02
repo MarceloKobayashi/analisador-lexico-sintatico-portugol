@@ -92,13 +92,13 @@ A função `main` chama o léxico sucessivamente e imprime o token encontrado e 
 ## 4.1 Compilação
 
 ```powershell
-gcc main.c lexico.c -o lexico.exe;
+gcc .\src\main.c .\src\lexico.c -o lexico.exe;
 ```
 
 ## 4.2 Execução
 
 ```powershell
-.\lexico.exe teste_2.por;
+.\lexico.exe .\tests\teste_2.por;
 ```
 
 ## 4.3 Exemplo de programa aceito
